@@ -1,55 +1,84 @@
-@media only screen and (max-width: 1200px) {
-}
-@media only screen and (max-width: 991px) {
- }
-@media only screen and (max-width: 768px) {
-}
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (max-width: 768px) {}
+
 @media only screen and (max-width: 575px) {
-    .header{
+    .header {
         flex-direction: column;
         margin: 0 auto;
-        &__official{
+
+        &__official {
             padding-top: 15px;
         }
-        &__contacts{
+
+        &__contacts {
             padding-top: 15px;
             align-items: center;
         }
     }
-    .promo{
-        &__header{
+
+    .promo {
+        &__header {
             margin: 0 auto;
             margin-bottom: 15px;
             font-size: 37px;
             text-align: center;
         }
-        &__subheader{
+
+        &__subheader {
             padding-top: 10px;
             margin: 0 auto;
             font-size: 20px;
             text-align: center;
         }
-        &__icons{
+
+        &__icons {
             width: 100%;
             margin: 0 auto;
             margin-top: 15px;
             flex-wrap: wrap;
             justify-content: space-around;
         }
-        &__link{
+
+        &__link {
             margin: 0 auto;
             margin-top: 15px;
         }
     }
-    .button{
+    .head{
+        &_left{
+            font-size: 30px !important;
+            text-align: center !important;
+        }
+    }
+
+    .consultation{
+        &__descr{
+            text-align: center;
+            max-width: 100%;
+        }
+    }
+    .feed-form {
+        margin: 0 auto;
+        padding-right: 10px;
+        input{
+            width: 100%;
+        }
+    }
+    .button {
         width: 250px;
         height: 50px;
         font-size: 19px;
         margin-top: 15px;
-        &_main{
+        &_main {
             width: 100%;
+        }
+        &_submit {
+            width: 100%;
+            font-size: 19px;
         }
     }
 
 }
-

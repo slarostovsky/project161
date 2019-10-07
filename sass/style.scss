@@ -2,6 +2,7 @@
     font-family: 'Museo Sans Cyrl',sans-serif ;
 }
 .container{
+    position: relative;
     max-width: 950px;
     margin: 0 auto;
 }
@@ -10,3 +11,9 @@
 @import 'buttons';
 @import 'main';
 @import 'media';
+@import 'head';
+@import 'consultation';
+@import 'forms';
+@import 'carousel';
+@import 'catalog';
+@import 'review';
