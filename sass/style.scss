@@ -1,5 +1,10 @@
 *{
     font-family: 'Museo Sans Cyrl',sans-serif ;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
 }
 .container{
     position: relative;
@@ -17,3 +22,5 @@
 @import 'carousel';
 @import 'catalog';
 @import 'review';
+@import 'footer';
+@import 'modal';

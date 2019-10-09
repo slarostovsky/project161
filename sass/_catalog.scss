@@ -49,17 +49,19 @@
         display:none;
         &_active{
             display: flex;
+            
         }
         
     }
 
     &-item {
-        width: 300px;
+        max-width: 300px;
         min-height: 440px;
         border: 2px solid #e8e8e8;
         padding: 20px 20px 27px 20px;
         overflow: hidden;
         margin-bottom: 20px;
+        box-sizing: border-box;
         &__img {
             display: block;
             margin: 0 auto;
@@ -133,7 +135,7 @@
 
             &_active {
                 transform: translateX(0%);
-                margin-right: 20px;
+
             }
         }
 
@@ -147,7 +149,7 @@
             padding-left: 19px;
             margin-bottom: 0;
             list-style-type: none;
-
+            box-sizing: border-box;
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0px;
